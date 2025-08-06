@@ -180,7 +180,7 @@ And you need to install a set of packages as described in the
 
 ### Setup Virtual Env
 ```bash
-pip intall uv
+pip install uv
 uv venv .venv
 source .venv/bin/activate
 ```
