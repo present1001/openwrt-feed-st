@@ -253,7 +253,14 @@ Then to start the build.
 
 ```bash
 $ make -j$(nproc)
+# If you have a python dependency problem, Create "Makefile.local" as below.
+$ vi Makefile.local
+default:
+        make -j$(nproc) PYTHON3=/home/withus/work/stm32mp/.venv/bin/python V=s
+# And then run a make.
+make -f Makefile.local
 ```
+
 
 ## Flashing and booting the system
 
