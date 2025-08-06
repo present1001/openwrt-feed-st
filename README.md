@@ -178,6 +178,13 @@ Unix like distribution installed on your workstation.
 And you need to install a set of packages as described in the
 [OpenWRT Build system setup](https://openwrt.org/docs/guide-developer/toolchain/install-buildsystem).
 
+Setup Virtual Env
+```bash
+pip intall uv
+uv venv .venv
+source .venv/bin/activate
+```
+
 ### Getting the code
 
 The feed is designed to work with the `openwrt-24.10` branch of OpenWRT (last
