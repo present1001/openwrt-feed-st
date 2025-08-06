@@ -194,6 +194,10 @@ tested commit is [v24.10.1](https://github.com/openwrt/openwrt/tree/v24.10.1)).
 $ git clone https://git.openwrt.org/openwrt/openwrt.git
 $ cd openwrt
 $ git checkout v24.10.1
+
+# If cloning has too long time, you can select as below
+$ git clone --single-branch --branch v24.10.1 --depth 1 https://git.openwrt.org/openwrt/openwrt.git
+
 ```
 
 Next step is to add the [STMicroelectronics](https://www.st.com) feed in the
