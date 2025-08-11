@@ -180,6 +180,7 @@ And you need to install a set of packages as described in the
 
 ### Setup Virtual Env
 ```bash
+sudo apt-get install ncurses-dev unzip
 pip install uv
 uv venv .venv
 source .venv/bin/activate
